@@ -30,6 +30,9 @@
     <ClCompile Include="Textbook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Catalog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Edition.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Textbook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Catalog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

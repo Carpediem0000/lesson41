@@ -35,4 +35,8 @@ int main()
 
 	archive.showCatalog();
 	archive.showVisitors();
+	cout << "=====================================\n";
+	archive.returnEdition("Vanya", "1230");
+	archive.showCatalog();
+	archive.showVisitors();
 }

@@ -27,7 +27,7 @@ void Archive::returnEdition(string name, string isbn)
 		if (obj.second.getName() == name)
 		{
 			auto item = obj.second.returnEdition(isbn);
-			cout << "Name: " << name << " return: " << catalog[isbn]->getName() << endl;
+			cout << "Name: " << name << " return: " << obj.second.returnEdition(isbn)->getName() << endl;
 			catalog.add((Edition*)item);
 			break;
 		}

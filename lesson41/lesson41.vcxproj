@@ -127,19 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Archive.cpp" />
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="Catalog.cpp" />
     <ClCompile Include="Edition.cpp" />
     <ClCompile Include="Magazine.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Textbook.cpp" />
+    <ClCompile Include="Time_.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Archive.h" />
     <ClInclude Include="Book.h" />
     <ClInclude Include="Catalog.h" />
     <ClInclude Include="Edition.h" />
     <ClInclude Include="Magazine.h" />
     <ClInclude Include="Textbook.h" />
+    <ClInclude Include="Time_.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

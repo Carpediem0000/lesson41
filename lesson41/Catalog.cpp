@@ -29,7 +29,6 @@ void Catalog::remove(string isbn)
         {
             cout << "Delete: " << obj->getName() << endl;
             catalog.erase(obj);
-            delete obj;
             return;
         }
     }
